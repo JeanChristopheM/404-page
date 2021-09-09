@@ -3,3 +3,34 @@
     margin: 0;
     box-sizing: border-box;
 }
+body {
+    background-color: hsl(125, 0%, 10%);
+    color: hsl(125, 0%, 90%);
+    min-height:100vh;
+    max-width:600px;
+    margin:0 auto;
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    text-align: center;
+    font-size: 1.2rem;
+
+    animation: bounceIn;
+    animation-duration: .6s;
+}
+    header h1{
+        font-size: 5rem;
+    }
+    footer {
+        padding: 2rem;
+    }
+        a, a:visited, a:active {
+            text-decoration: none;
+            color: inherit;
+            border: 1px solid white;
+            padding: 1rem;
+        }
+        a:hover {
+            background-color: hsl(125, 0%, 90%);
+            color: hsl(125, 0%, 10%);
+        }
